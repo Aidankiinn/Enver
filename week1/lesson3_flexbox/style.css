@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+/*    obnulayem otstupy body*/
+}
+
+.container {
+    display: flex;
+
+
+
+
+    /*flex-direction: row-reverse;*/
+    /*flex-direction: column;*/
+    /*flex-direction: column-reverse;*/
+
+    /*justify-content: flex-start; dvigaet elementov po gorizontali*/
+    /*justify-content: flex-end;*/
+    /*justify-content: space-between;*/
+    /*justify-content: space-evenly;*/
+    justify-content: center;
+
+    /*align-items: flex-start; po vertikali*/
+    /*align-items: flex-end;*/
+    /*align-items: baseline;*/
+    /*baseline - chtoby text byl na odnom urovne*/
+    /*align-items: center;*/
+
+    /*flex-wrap: nowrap;*/
+    /*wrap perenos elementov esli ne pomeshautsya*/
+    /*flex-wrap: wrap-reverse;*/
+    flex-wrap: wrap;
+
+    height: 100vh;
+    background-color: cadetblue;
+    border: 3px solid orange;
+}
+
+.blocks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    color: white;
+    background-color: orange;
+    font-size: 26px;
+    margin: 6px;
+}
+
+#block-1 {
+    order: 1;
+/*    po umolchaniyu s 0 i + */
+}
+#block-2 {
+    order: 4;
+}
+#block-3 {
+    order: -1;
+}

@@ -1,0 +1,349 @@
+body {
+    font-family: 'Inter', sans-serif;
+    color: #4E5A65;
+    font-size: 16px;
+    text-align: center;
+    background-image: url("./images/Ellipse 1.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+
+}
+.container {
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    color: #35414B;
+    margin-top: 45px;
+}
+.menuList {
+    list-style-type: none;
+    display: inline-block;
+}
+.menuList li {
+    position: relative;
+    display: inline-block;
+    margin: 0 23px;
+}
+.menuList li::after {
+    content: url("./images/down-arrow.png");
+    position: absolute;
+    top: 4px;
+    padding: 0 5px;
+    width: 8px;
+    height: 8px;
+}
+.menuList li:nth-child(3)::after {
+    content: " ";
+}
+
+.login > a {
+    text-decoration: none;
+    color: #35414B;
+}
+.login button {
+    color: #794CFF;
+    background-color: #ECE5FF;
+    border: none;
+    border-radius: 3px;
+    font-weight: 500;
+    font-size: 16px;
+    padding: 15px 22px;
+    margin-left: 17px;
+}
+.mainBlock {
+    text-align: center;
+    padding: 100px 0 20px;
+}
+.save, .mainBlock span {
+    border-radius: 30px;
+    font-weight: 500;
+    padding: 10px 16px;
+}
+.save {
+    display: inline-block;
+    background-color: #81C43B;
+    color: white;
+}
+.mainBlock span {
+    position: relative;
+    background-color: #F2F9EB;
+    color: #35414B;
+    z-index: -1;
+    margin-left: -40px;
+    padding-left: 48px;
+}
+.mainBlock span::after {
+    content: ">";
+    padding-left: 5px;
+}
+h1 {
+    color: #35414B;
+    font-size: 64px;
+    line-height: 72px;
+    max-width: 760px;
+    margin: 30px auto;
+}
+
+.mainText {
+    max-width: 510px;
+    margin: 40px auto;
+    line-height: 24px;
+}
+.mainBlock input {
+    border: 1px solid grey;
+    border-right: none;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+    padding: 20px;
+    width: 300px;
+}
+.mainBlock input::placeholder {
+    color: #97A5B5;
+}
+.mainButton {
+    color: white;
+    background-color: #794CFF;
+    border: 1px solid #794CFF;
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    padding: 20px 40px;
+    margin-left: -5px;
+}
+.analyzeBlock {
+    padding: 0 30px 100px 0;
+}
+.analyzeBlock .mainImg{
+    width: 100%;
+    max-width: 960px;
+    height: auto;
+}
+.analyzeBlock p{
+    text-transform: uppercase;
+}
+.analyzeBlock p>span{
+    font-weight: bold;
+}
+.analyzeBlock .teamLogo {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.timelineSection {
+    background-color: #FBFAFE;
+    border: 1px solid #F0EBFA;
+}
+.timeline {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    padding: 60px 0;
+}
+.timeline img {
+    max-width: 657px;
+    width: 100%;
+    height: auto;
+}
+.teamBox {
+    max-width: 370px;
+    text-align: left;
+}
+ h6{
+    font-size: 18px;
+    color: #35414B;
+    font-weight: 600;
+    margin: 28px 0 16px;
+}
+.teamBox p{
+    line-height: 24px;
+}
+.team {
+    padding: 1px 26px;
+}
+.team:first-child {
+    border-left: 8px solid #794CFF;
+    background-color: #F6F3FC;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+.team:nth-child(2),.team:nth-child(3)  {
+    border-bottom: 1px solid #F0EBFA;
+}
+
+.makeBlock {
+    padding: 70px 0;
+}
+
+h3 {
+    font-size: 40px;
+    color: #35414B;
+    font-weight: 600;
+}
+.boxes {
+    position: relative;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.box {
+    max-width: 300px;
+    margin:20px 0 70px;
+}
+.hoursSection {
+    background-color: #FBFAFE;
+}
+.hoursBlock {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 0;
+    /*flex-wrap: wrap;*/
+}
+.hoursContent {
+    text-align: left;
+    max-width: 415px;
+}
+.hoursContent p {
+    line-height: 24px;
+}
+.hoursContent button {
+    background-color: #796EFF;
+    border: none;
+    color: white;
+    border-radius: 4px;
+    padding: 20px;
+}
+.hoursBlock img {
+    max-width: 597px;
+    width: 100%;
+    height: auto;
+}
+.customerBlock {
+    padding: 70px 0;
+}
+.customerBlock h3, .customerBlock h3 + p {
+    margin: 60px auto;
+    max-width: 570px;
+}
+.customerBlock h3 + p {
+    line-height: 32px;
+    font-size: 18px;
+}
+.devs {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: left;
+}
+.dev {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 20px 50px 20px 20px;
+}
+.dev:first-child {
+    border-top: 4px solid #35414B;
+}
+.dev img {
+    width: 48px;
+    height: 48px;
+    margin-right: 15px;
+}
+.dev span {
+    font-weight: 600;
+}
+.dev p {
+    margin: 5px 0;
+}
+.apps {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #796EFF;
+    border-radius: 16px;
+    max-width: 1110px;
+    margin: 80px auto;
+}
+.apps h4 {
+    color: white;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    max-width: 423px;
+}
+.apps img {
+    margin: 0 10px;
+}
+.footerUp {
+    background-color: #1D2830;
+}
+.footerDown {
+    background-color: #1D2830;
+    border-top: 1px solid #ffffff1A;
+}
+.footerTop {
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    padding: 70px 0;
+}
+.list {
+    display: block;
+    text-decoration: none;
+    color: white;
+    margin: 20px 0;
+    text-transform: capitalize;
+}
+.list:hover {
+    font-weight: bold;
+}
+.list:first-child {
+    font-weight: 600;
+}
+.lists img {
+    display: block;
+    margin: 10px 0;
+    padding-right: 100px;
+}
+.footerBottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+.icons img {
+    margin: 0 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

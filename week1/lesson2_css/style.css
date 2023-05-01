@@ -1,0 +1,69 @@
+/*div {*/
+/*    background-color: cadetblue;*/
+/*    font-size: 30px;*/
+/*    height: 200px;*/
+/*    width: 200px;*/
+/*    !*width: 50%;*!*/
+/*    !*width: 50vw*!*/
+/*    !*height: 50vh*!*/
+/*    margin-bottom: 20px;*/
+/*    display: inline-block;*/
+/*    color: orange;*/
+/*    text-align: center;*/
+/*    padding: 50px;*/
+/*    !*margin: auto;*!*/
+/*    font-family: 'Chivo Mono', monospace;*/
+/*}*/
+
+/*.superDiv {*/
+/*    border: orange 5px solid;*/
+/*}*/
+
+/*#superDiv {*/
+/*    background-color: bisque !important;*/
+/*}*/
+
+/*#superDiv {*/
+/*    background-color: white;*/
+/*}*/
+
+/*!*selectory: to k chemu obrashaemsya*/
+/*u ID vysokiy prioritet*/
+/**!*/
+
+div {
+    margin: auto;
+    width: 200px;
+}
+
+h1 {
+    text-align: center;
+}
+
+input {
+    display: block;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+button {
+    margin-left: 50px;
+    width: 100px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,115 @@
+html {
+    scroll-behavior: smooth;
+}
+
+h2:hover {
+    color: red;
+    font-weight: 400;
+    font-style: italic;
+}
+a:visited {
+    color: #60E1CB;
+}
+
+/*link - menyaet svoistvo linka kotoroe my eshe ne poseshali*/
+a:link {
+    color: #ffa628;
+}
+
+input:focus {
+    background-color: #ff5a26;
+    outline-color: black;
+}
+
+input::placeholder {
+    color: #7BC0E3;
+    text-align: center;
+    font-style: italic;
+}
+
+li:first-child {
+    color: gold;
+}
+
+li:nth-child(5) {
+    color: teal;
+}
+
+li:nth-child(7) {
+    color: violet;
+}
+/*li:nth-child(odd) {
+    color: royalblue;
+}*/
+/*li:nth-child(even) {
+    color: violet;
+}*/
+
+li:last-child {
+    color: cornflowerblue;
+}
+li:nth-child(even) {
+    list-style-type: "🤓";
+}
+
+p:target {
+    border: 1px solid #7BC0E3;
+    background-color: #ffc5b3;
+    color: white;
+}
+.text::first-letter {
+    font-size: 40px;
+    color: gold;
+}
+.text::first-line {
+    /*font-size: 40px;*/
+    color: violet;
+}
+.text::selection {
+    background-color: #ffc5b3;
+    color: #7BC0E3;
+}
+span {
+    position: relative;
+}
+span::after {
+    content: "🤓";
+    color: royalblue;
+    padding-right: 10px;
+}
+span::before {
+    content: "";
+    position: absolute;
+    display: block;
+    /*bottom: 0;*/
+    background-color: #7BC0E3;
+    width: 100%;
+    margin: -5px 0;
+    height: 2px;
+}
+
+.list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.list li::before {
+    content: "☺️";
+    padding-right: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,11 @@
+:root {
+    --main-size: 16px;
+    --main-header-size: 40px;
+    --lower-header-size: 25px;
+    --main-family: 'Roboto', sans-serif;
+    --main-line-height: 24px;
+    --main-color: #576D81;
+    --primary-color: #0F2336;
+    --secondary-color: #00CCCC;
+    --blocks-color: #E3E6E8;
+}

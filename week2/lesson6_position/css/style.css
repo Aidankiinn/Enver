@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+}
+.parent {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background-color: #7BC0E3;
+    margin: 0 auto;
+    border: 2px solid black;
+}
+.child {
+    position: absolute;
+    top: 40%;
+    left: 10px;
+    width: 200px;
+    height: 200px;
+    background-color: #ffc5b3;
+    border: 2px solid black;
+}
+.whatsapp {
+    position: fixed;
+    width: 40px;
+    height: 40px;
+    background-color: #81C43B;
+    border-radius: 50%;
+    bottom: 30px;
+    right: 30px;
+/*fixed - ottalkivaetsya ot razmera bowsera*/
+}
+header {
+    /*position: fixed;*/
+    position: sticky;
+    right: 0;
+    left: 0;
+    top: 20px;
+    opacity: 0.5;
+    z-index: 1;
+    height: 70px;
+    background-color: #ffa628;
+    color: white;
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+

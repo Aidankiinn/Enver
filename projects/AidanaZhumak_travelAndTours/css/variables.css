@@ -1,0 +1,10 @@
+
+:root {
+    --main-font: 'Inter', sans-serif;
+    --title-font: 'Playfair Display', serif;
+    --secondary-font: 'Mulish', sans-serif;
+
+    --section-title-size: 36px;
+
+    --main-btn-color: #FB8F1D;
+}

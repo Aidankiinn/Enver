@@ -1,0 +1,93 @@
+.parent {
+    /*font-size: 2em;*/
+    font-size: 2rem;
+    /
+    /*rem kornevoi elementtin razmerine karata almashat*/
+}
+.child {
+    /*font-size: 2em;*/
+    font-size: 2rem;
+}
+
+/*rezinovaya verstka*/
+
+body {
+    margin: 0;
+}
+.block-1 {
+    width: 20%;
+    height: 100%;
+    background-color: #ffa628;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    background-color: cadetblue;
+    height: 300px;
+    width: 95vw;
+}
+.block-2 {
+    width: 40%;
+    background-color: gold;
+    height: 100%;
+}
+.block-3 {
+    width: 30%;
+    height: 100%;
+    background-color: purple;
+}
+
+
+
+
+
+/*adaptivnaya verstka -> */
+
+.container2{
+    display: flex;
+    justify-content: space-between;
+    max-width: 1000px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+.block {
+    width: 200px;
+    height: 200px;
+}
+.block:nth-child(even) {
+    background-color: #ffa628;
+}
+.block:nth-child(odd) {
+    background-color: #0F2336;
+}
+
+@media only screen and (max-width: 600px) {
+    .block:nth-child(even) {
+        background-color:blue;
+    }
+}
+@media screen and (max-width: 450px) {
+    .block:last-child {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .container2 {
+        display: block;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
