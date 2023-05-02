@@ -53,3 +53,13 @@ f
 6projects/AidanaZhumak_travelAndTours/css/variables.css,3/a/3a8e324cfc00172b39962f1ce4f66bd5d0de6242
 b
 2projects/AidanaZhumak_travelAndTours/css/style.css,b/4/b477df8f0fabb3d672a30d724246787af715c7c2
+I
+projects/enver/index.html,a/d/adc16115377ea50447a4a6394afb61c943831077
+]
+-projects/AidanaZhumak_MoveOn/css/variable.css,5/a/5a06a820465923d8e4cf186e2672ef5540eb2523
+L
+projects/enver/css/style.css,b/5/b5159df904809b169101e160d3c75e629630b333
+Z
+*projects/AidanaZhumak_MoveOn/css/style.css,2/4/24a0a499e6c1768a79fd7891f25d9ae550c7a182
+W
+'projects/AidanaZhumak_MoveOn/index.html,7/9/79458ea4254dcdf6c6b3c4cc876340ec581c70a4
